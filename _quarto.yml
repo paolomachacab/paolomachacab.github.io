@@ -1,0 +1,43 @@
+project:
+  type: website
+  
+  preview: 
+    port: 5555
+    browser: true
+    watch-inputs: true
+    navigate: true
+    
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+website:
+  page-navigation: true
+  navbar:
+    background: "#FFFF"
+    pinned: true
+
+    left:
+      - text: "Paolo Aldair Machaca Beltran"
+        file: index.qmd
+    
+    right:
+      - text: "Research"
+        file: research.qmd 
+      - text: "Teaching"
+        file: teaching.qmd
+      - text: "Software and Data"
+        file: data.qmd
+      
+  page-footer:
+    border: true  
+    center: >-
+      &#169; 2024 Paolo Machaca &#183; Made with [Quarto](https://quarto.org)
+    
+format:
+  html:
+    theme: 
+       dark:
+        - html/custom-dark.scss
+    toc: true
+

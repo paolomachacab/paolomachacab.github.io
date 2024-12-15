@@ -1,0 +1,42 @@
+---
+title: "Paolo Aldair Machaca Beltran"
+subtitle: "<center>Economist</center>"
+image: /files/img/paolo.jpg
+toc: false
+page-layout: full
+format:
+  html:
+    quarto-template-params:
+      banner-header-class: "home"
+
+about:
+  id: hero-heading
+  template: jolla
+  image-width: 15em
+  image-shape: round  
+  links:
+    - icon: Gmail
+      text: Gmail
+      href: "mailto:paolomachacab@gmail.com"
+    - icon: Bluesky
+      text: Bluesky
+      href: "https://bsky.app/profile/paolomachacab.bsky.social"
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/paolomachacab
+    - icon: github
+      text: Github
+      href: https://github.com/paolomachaca
+---
+
+::: {#hero-heading}
+:::
+
+<div style="text-align: justify">
+
+Welcome! I am an **economist** with experience in macroeconomic research and policy analysis. I hold a degree in Economics from the *Universidad Mayor de San Andrés*, and I specialize in **development economics**, **labor markets**, and **impact evaluations**. 
+
+Currently, I am conducting research on the *wage penalties for motherhood in Bolivia* as part of the *Ecomienza 2024* program, applying econometric methods like the Oaxaca-Blinder decomposition to analyze labor market disparities. I have also been trained in evaluation methodologies through *J-PAL LAC* and *IPA Peru*, enhancing my skills in impact evaluation, Python programming, and data management.
+
+
+</div>

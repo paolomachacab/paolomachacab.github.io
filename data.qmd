@@ -1,0 +1,20 @@
+---
+title: "Software and Data"
+toc-location: right
+---
+
+## Packages
+
+**R**
+- A
+
+**Stata**
+- B
+
+## Data repositories
+
+**Ecomienza 2024**
+
+- A
+- B
+- C
