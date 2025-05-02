@@ -26,6 +26,7 @@ theme_toggle:
   enabled: true
 search: false
 
+remote_theme: "mmistakes/minimal-mistakes@latest"
 
 # Build settings
 markdown: kramdown
