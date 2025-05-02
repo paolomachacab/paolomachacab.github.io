@@ -22,11 +22,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: contrast
-theme_toggle:
-  enabled: true
+
 search: false
 
-remote_theme: "mmistakes/minimal-mistakes@latest"
 
 # Build settings
 markdown: kramdown
