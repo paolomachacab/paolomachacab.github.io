@@ -1,0 +1,109 @@
+baseURL: "https://paolomachacab.github.io" 
+title: Paolo Machaca Beltran
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Research
+          url: wp/
+          weight: 3
+        #- name: Work in Progress
+        #  url: wp/
+         # weight: 5
+        - name: Home
+          url: /
+          weight: 1
+        - name: Blog
+          url: papers/
+          weight: 2 
+        - name: CV
+          url: CV_LucasWarwar-2.pdf
+          weight: 4
+
+params:
+    description: "I am an economist graduated from UMSA. My research interests include labor, industrial, and applied economics."
+    author: Paolo
+    googleAnalyticsID: "G-YFWR46WDX6"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowRssButtonInSectionTermList: false
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Paolo Machaca Beltran
+          subtitle: "I am an economist graduated from UMSA. My research interests include industrial organization labor, industrial, and applied economics.\n\n\nIn my free time, I enjoy building LEGO sets and following Liverpool FC. From Bolivia.\n\n\nFeel free to reach out to me at @gmail.com."
+          imageUrl: "picture.jpg"
+          imageWidth: 160
+          imageHeight: 160
+          imageTitle: Paolo Machaca Beltran
+          buttons:
+            - name: Blog 
+              url: papers/
+            - name: Research
+              url: wp/
+            - name: CV
+              url: CV_LucasWarwar-2.pdf
+            #- name: Readings
+             # url: readings/
+            #- name: Tags
+             # url: tags/
+            #- name: Archive
+             # url: archive/
+    socialIcons:
+        - name: CV
+          url: CV_LucasWarwar-2.pdf
+        - name: Email
+          url: mailto:warwar@stanford.edu
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/paolomachacab/
+        - name: GitHub
+          url: https://github.com/paolomachacab
+        - name: Twitter
+          url: https://twitter.com/paolomachacab
+        - name: bluesky
+          url: https://bsky.app/profile/paolomachacab.bsky.social
+
+    assets:
+        disableHLJS: true
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Paolo"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

@@ -1,0 +1,34 @@
+.profile {
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile img {
+    width: 200px !important;
+    height: 200px !important;
+    margin: 0 auto;
+}
+.profile h1 {
+    text-align: center !important;
+}
+.profile p {
+    text-align: justify !important;
+    max-width: 600px;
+}
+.social-icons {
+    justify-content: center;
+}
+.buttons {
+    justify-content: center;
+}
+
+/* Centrar verticalmente el perfil en la pantalla */
+.page-header,
+.first-entry {
+    min-height: calc(100vh - 60px);
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
