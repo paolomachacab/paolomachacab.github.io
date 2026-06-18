@@ -4,7 +4,7 @@ title: "Software and Data"
 
 ## Projects
 
-**[Atlas Municipal ODS Bolivia 2026](https://paolomachacab.github.io/atlas_sdsn_paolo/)**
+- **[Atlas Municipal ODS Bolivia 2026](https://paolomachacab.github.io/atlas_sdsn_paolo/)**
 
 Interactive web application for the visualization of Sustainable Development Goal indicators across 343 Bolivian municipalities, comparing the evolution between two time periods.
 
@@ -12,8 +12,8 @@ Interactive web application for the visualization of Sustainable Development Goa
 
 ## Data Repositories
 
-Coming soon.
+- **Coming soon.**
 
 ## Packages
 
-Coming soon.
+- **Coming soon.**
