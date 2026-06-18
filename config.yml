@@ -81,7 +81,7 @@ params:
         - name: GitHub
           url: https://github.com/paolomachacab
         - name: Twitter
-          url: https://twitter.com/paolomachaca
+          url: https://twitter.com/paolomachacab
         - name: bluesky
           url: https://bsky.app/profile/paolomachacab.bsky.social
 
