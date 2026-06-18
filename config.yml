@@ -24,7 +24,7 @@ menu:
           url: papers/
           weight: 2 
         - name: CV
-          url: CV_LucasWarwar-2.pdf
+          url: cv.pdf
           weight: 4
 
 params:
@@ -54,7 +54,7 @@ params:
           enabled: true
           title: Paolo Machaca Beltran
           subtitle: "I am an economist graduated from UMSA. My research interests include industrial organization labor, industrial, and applied economics.\n\n\nIn my free time, I enjoy building LEGO sets and following Liverpool FC. From Bolivia.\n\n\nFeel free to reach out to me at @gmail.com."
-          imageUrl: "picture.jpg"
+          imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Paolo Machaca Beltran
@@ -64,7 +64,7 @@ params:
             - name: Research
               url: wp/
             - name: CV
-              url: CV_LucasWarwar-2.pdf
+              url: cv.pdf
             #- name: Readings
              # url: readings/
             #- name: Tags
@@ -73,9 +73,9 @@ params:
              # url: archive/
     socialIcons:
         - name: CV
-          url: CV_LucasWarwar-2.pdf
+          url: cv.pdf
         - name: Email
-          url: mailto:warwar@stanford.edu
+          url: mailto:paolomachacab@gmail.com
         - name: LinkedIn
           url: https://www.linkedin.com/in/paolomachacab/
         - name: GitHub
