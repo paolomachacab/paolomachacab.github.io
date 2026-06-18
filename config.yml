@@ -26,6 +26,9 @@ menu:
         - name: CV
           url: CV_LucasWarwar-2.pdf
           weight: 4
+        - name: Software & Data
+          url: software/
+          weight: 5
 
 params:
     description: "I am an economist graduated from UMSA. My research interests include labor, industrial, and applied economics."
