@@ -1,7 +1,10 @@
-baseURL: "https://paolomachacab.github.io" 
+baseURL: "https://paolomachacab.github.io"
 title: Paolo Machaca Beltran
 paginate: 20
 theme: PaperMod
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -9,26 +12,82 @@ enableRobotsTXT: true
 taxonomies:
     tag: tags
 
-menu:
-    main:
-        - name: Research
-          url: wp/
-          weight: 3
-        #- name: Work in Progress
-        #  url: wp/
-         # weight: 5
-        - name: Home
-          url: /
-          weight: 1
-        - name: Blog
-          url: papers/
-          weight: 2 
-        - name: CV
-          url: CV_LucasWarwar-2.pdf
-          weight: 5
-        - name: Software and Data
-          url: software/
-          weight: 4
+languages:
+    en:
+        languageName: "English"
+        languageCode: en-us
+        weight: 1
+        menu:
+            main:
+                - name: Research
+                  url: wp/
+                  weight: 3
+                - name: Home
+                  url: /
+                  weight: 1
+                - name: Blog
+                  url: papers/
+                  weight: 2
+                - name: CV
+                  url: CV_LucasWarwar-2.pdf
+                  weight: 5
+                - name: Software and Data
+                  url: software/
+                  weight: 4
+    zh-cn:
+        languageName: "中文"
+        languageCode: zh-cn
+        weight: 2
+        title: 保罗·马查卡·贝尔特兰
+        params:
+            description: "我毕业于玻利维亚圣安德烈斯大学（UMSA）经济学专业，研究方向包括劳动经济学、产业组织和应用经济学。"
+            profileMode:
+                enabled: true
+                title: 保罗·马查卡·贝尔特兰
+                subtitle: "我毕业于玻利维亚圣安德烈斯大学（UMSA）经济学专业，研究方向包括劳动经济学、产业组织和应用经济学。\n\n\n业余时间，我喜欢搭乐高。来自玻利维亚。\n\n\n欢迎通过 paolo.machaca@sdsnbolivia.org 与我联系。"
+                imageUrl: "picture.jpg"
+                imageWidth: 160
+                imageHeight: 160
+                imageTitle: 保罗·马查卡·贝尔特兰
+                buttons:
+                    - name: 博客
+                      url: papers/
+                    - name: 研究
+                      url: wp/
+                    - name: 软件与数据
+                      url: software/
+                    - name: 简历
+                      url: CV_LucasWarwar-2.pdf
+            socialIcons:
+                - name: CV
+                  url: CV_LucasWarwar-2.pdf
+                - name: Email
+                  url: mailto:paolo.machaca@sdsnbolivia.org
+                - name: LinkedIn
+                  url: https://www.linkedin.com/in/paolomachacab/
+                - name: GitHub
+                  url: https://github.com/paolomachacab
+                - name: Twitter
+                  url: https://twitter.com/paolomachacab
+                - name: bluesky
+                  url: https://bsky.app/profile/paolomachacab.bsky.social
+        menu:
+            main:
+                - name: 研究
+                  url: wp/
+                  weight: 3
+                - name: 首页
+                  url: /
+                  weight: 1
+                - name: 博客
+                  url: papers/
+                  weight: 2
+                - name: 简历
+                  url: CV_LucasWarwar-2.pdf
+                  weight: 5
+                - name: 软件与数据
+                  url: software/
+                  weight: 4
 
 params:
     description: "I am an economist graduated from UMSA. My research interests include labor, industrial, and applied economics."
@@ -38,6 +97,7 @@ params:
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
+    displayFullLangName: true
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -56,13 +116,13 @@ params:
     profileMode:
           enabled: true
           title: Paolo Machaca Beltran
-          subtitle: "I am an economist graduated from UMSA. My research interests include industrial organization labor, industrial, and applied economics.\n\n\nIn my free time, I enjoy building LEGO sets and following Liverpool FC. From Bolivia.\n\n\nFeel free to reach out to me at @gmail.com."
+          subtitle: "I am an economist graduated from UMSA. My research interests include labor, industrial organization, and applied economics.\n\n\nIn my free time, I enjoy building LEGO sets. From Bolivia.\n\n\nFeel free to reach out to me at paolo.machaca@sdsnbolivia.org."
           imageUrl: "picture.jpg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Paolo Machaca Beltran
           buttons:
-            - name: Blog 
+            - name: Blog
               url: papers/
             - name: Research
               url: wp/
@@ -78,7 +138,7 @@ params:
         - name: CV
           url: CV_LucasWarwar-2.pdf
         - name: Email
-          url: mailto:warwar@stanford.edu
+          url: mailto:paolo.machaca@sdsnbolivia.org
         - name: LinkedIn
           url: https://www.linkedin.com/in/paolomachacab/
         - name: GitHub
@@ -105,7 +165,7 @@ markup:
             unsafe: true
     highlight:
         guessSyntax: true
-        style: autumn 
+        style: autumn
     tableOfContents:
         endLevel: 2
         ordered: false
